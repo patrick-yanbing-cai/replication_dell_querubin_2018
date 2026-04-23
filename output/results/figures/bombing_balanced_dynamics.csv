@@ -1,0 +1,12 @@
+depvar,period,coeff,se,dfile,cp5,cn5,cp10,cn10
+"fr_strikes_mean",-2,.0255989,.0334707,"firstclose_post",.0912014,-.0400037,.0808255,-.0296277
+"fr_strikes_mean",-1,.0101324,.03244,"firstclose_post",.0737148,-.05345,.0636584,-.0433936
+"fr_strikes_mean",0,.0066528,.0189909,"firstclose_post",.043875,-.0305695,.0379878,-.0246823
+"fr_strikes_mean",1,.0522076,.0241305,"firstclose_post",.0995035,.0049118,.092023,.0123922
+"fr_strikes_mean",2,.0729149,.0268844,"firstclose_post",.1256083,.0202214,.1172741,.0285556
+"fr_strikes_mean",3,.0775194,.0284054,"firstclose_post",.133194,.0218448,.1243884,.0306505
+"fr_strikes_mean",4,.0186853,.0279863,"firstclose_post",.0735385,-.0361679,.0648628,-.0274921
+"fr_strikes_mean",5,.0388255,.0274823,"firstclose_post",.0926909,-.0150398,.0841714,-.0065203
+"fr_strikes_mean",6,.0961656,.0319137,"firstclose_post",.1587164,.0336148,.1488232,.043508
+"fr_strikes_mean",7,.0682735,.0348883,"firstclose_post",.1366546,-.0001076,.1258392,.0107078
+"fr_strikes_mean",8,.0598721,.033965,"firstclose_post",.1264435,-.0066993,.1159143,.0038298

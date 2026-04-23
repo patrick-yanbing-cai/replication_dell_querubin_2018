@@ -1,0 +1,10 @@
+@"
+data/raw/
+data/processed/
+*.dta
+*.mat
+*.gph
+*.log
+__pycache__/
+*.pyc
+"@ | Out-File -Encoding utf8 .gitignore
