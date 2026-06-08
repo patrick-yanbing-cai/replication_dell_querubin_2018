@@ -176,7 +176,5 @@ Strategies." *Quarterly Journal of Economics* 133(2): 701–764.
 
 ## Acknowledgments
 
-Original replication package by Melissa Dell and Pablo Querubin,
-available at the Harvard Dataverse. This replication was conducted
-as part of a PhD application portfolio project. Code organization,
-debugging, and documentation were assisted by Claude (Anthropic).
+This repository builds on the original replication package by Melissa
+Dell and Pablo Querubin, available at the Harvard Dataverse.
