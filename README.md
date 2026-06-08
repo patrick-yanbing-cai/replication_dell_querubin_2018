@@ -21,7 +21,7 @@ This repository replicates the main results of Dell & Querubin (2018), which use
 Original data are from the Harvard Dataverse:  
 [https://doi.org/10.7910/DVN/ZCQIMI](https://doi.org/10.7910/DVN/ZCQIMI)
 
-Place all files in `data/raw/`. Several files are pre-generated and require Matlab or R to reproduce from scratch — see `replication_notes.md` for details. All pre-generated files are included in `data/raw/`.
+Download the Dataverse files and place them in `data/raw/`. Several files are pre-generated and require Matlab or R to reproduce from scratch — see `replication_notes.md` for details. These pre-generated files are treated as raw inputs by the Stata pipeline.
 
 ---
 
@@ -30,6 +30,10 @@ Place all files in `data/raw/`. Several files are pre-generated and require Matl
 **Stata 17** with the following packages:
 ```stata
 ssc install outreg
+ssc install outreg2
+ssc install rdrobust
+ssc install rddensity
+ssc install coefplot
 ```
 
 **Python 3.11** with:
@@ -102,7 +106,7 @@ Verifies that the Python reimplementation of the Bayesian scoring algorithm matc
 │       ├── 18_plac_fs0.do       ← contemporaneous placebo
 │       └── 19_plac_out.do       ← outcome placebo
 ├── data/
-│   ├── raw/                     ← all data files (not tracked by git)
+│   ├── raw/                     ← Dataverse data files (not tracked by git)
 │   └── processed/               ← empty
 └── output/
     └── results/
@@ -172,7 +176,5 @@ Strategies." *Quarterly Journal of Economics* 133(2): 701–764.
 
 ## Acknowledgments
 
-Original replication package by Melissa Dell and Pablo Querubin,
-available at the Harvard Dataverse. This replication was conducted
-as part of a PhD application portfolio project. Code organization,
-debugging, and documentation were assisted by Claude (Anthropic).
+This repository builds on the original replication package by Melissa
+Dell and Pablo Querubin, available at the Harvard Dataverse.
