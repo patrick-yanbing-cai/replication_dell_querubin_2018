@@ -1,4 +1,3 @@
-@"
 data/raw/
 data/processed/
 *.dta
@@ -7,4 +6,3 @@ data/processed/
 *.log
 __pycache__/
 *.pyc
-"@ | Out-File -Encoding utf8 .gitignore

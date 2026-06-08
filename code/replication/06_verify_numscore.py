@@ -15,7 +15,8 @@ import pandas as pd
 import scipy.io
 import os
 
-DATA_DIR = "C:/Users/caiya/Desktop/Lifthrasir/Dell_Querubin_2018_replication/data/raw"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
 
 def load_rawdata(mat_file, n_raw):
     mat  = scipy.io.loadmat(mat_file, squeeze_me=True)
